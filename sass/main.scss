@@ -145,11 +145,11 @@ body {
         display: block;
         content: "";
         background-color: $border-color;
-        width: 87%;
+        width: 91%;
         height: 1px;
         position: relative;
         top: 4em;
-        left: 14.4em;
+        left: 50%;
         margin: 0 2em;
       }
 
@@ -195,6 +195,8 @@ body {
       p {
         color: #A1A09E;
         font-size: 1em;
+        margin: 2em auto;
+        width: 50%;
       }
     }
   }
