@@ -76,3 +76,40 @@ body {
   background-color: #6cdcac;
   text-transform: uppercase;
 }
+
+/* line 84, ../sass/main.scss */
+.numbers {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 88, ../sass/main.scss */
+.numbers ul {
+  position: relative;
+  top: -1em;
+  background-color: #efefef;
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 93, ../sass/main.scss */
+.numbers ul li {
+  float: left;
+  width: 25%;
+  box-sizing: border-box;
+  border-top: 1px solid #D9DADA;
+  border-bottom: 1px solid #D9DADA;
+  border-left: 1px solid #D9DADA;
+}
+/* line 101, ../sass/main.scss */
+.numbers ul li:last-child {
+  border-right: 1px solid #D9DADA;
+}
+/* line 105, ../sass/main.scss */
+.numbers ul li h2 {
+  font-size: 2em;
+  padding: 1em 0;
+}
+/* line 110, ../sass/main.scss */
+.numbers ul li h3 {
+  font-size: 1.5em;
+  padding: 0 0 2em 0;
+}

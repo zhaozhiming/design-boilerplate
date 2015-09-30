@@ -78,9 +78,42 @@ body {
       background-color: $button-color;
       text-transform: uppercase;
     }
-
   }
 }
 
+.numbers {
+  width: 80%;
+  margin: 0 auto;
 
+  ul {
+    position: relative;
+    top: -1em;
+    background-color: $bg-color;
 
+    li {
+      float: left;
+      width: 25%;
+      box-sizing: border-box;
+      border-top: 1px solid $second-text-color;
+      border-bottom: 1px solid $second-text-color;
+      border-left: 1px solid $second-text-color;
+
+      &:last-child {
+        border-right: 1px solid $second-text-color;
+      }
+
+      h2 {
+        font-size: 2em;
+        padding: 1em 0;
+      }
+
+      h3 {
+        font-size: 1.5em;
+        padding: 0 0 2em 0;
+      }
+
+    }
+    @include clearfix;
+  }
+
+}
