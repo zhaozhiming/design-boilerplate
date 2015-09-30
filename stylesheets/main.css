@@ -1,11 +1,11 @@
-/* line 9, ../sass/main.scss */
+/* line 11, ../sass/main.scss */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 62.5%;
   text-align: center;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 .hero {
   max-width: 100em;
   margin: 0 auto;
@@ -13,23 +13,23 @@ body {
   background-size: cover;
   color: white;
 }
-/* line 22, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 .hero header {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 23, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 .hero header img {
   margin: 1em;
   width: 5em;
   height: 4em;
   float: left;
 }
-/* line 30, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 .hero header ul {
   float: right;
 }
-/* line 33, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 .hero header ul li {
   float: left;
   margin: 1em .5em;
@@ -37,27 +37,27 @@ body {
   border: 1px solid transparent;
   border-radius: 2px;
 }
-/* line 40, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .hero header ul li:last-child {
   border: 1px solid white;
 }
-/* line 48, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .hero h1 {
   font-size: 4em;
   font-weight: bold;
   margin-bottom: 1em;
   padding: 1em .5em 0;
 }
-/* line 55, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .hero h2 {
   font-size: 2em;
   color: #D9DADA;
 }
-/* line 60, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 .hero form {
   padding: 2em 0 4em 0;
 }
-/* line 63, ../sass/main.scss */
+/* line 65, ../sass/main.scss */
 .hero form input[type="text"] {
   padding: 1em;
   border: 0;
@@ -66,7 +66,7 @@ body {
   background-color: #efefef;
   opacity: .3;
 }
-/* line 72, ../sass/main.scss */
+/* line 74, ../sass/main.scss */
 .hero form input[type="button"] {
   color: white;
   padding: 1em;
@@ -77,12 +77,12 @@ body {
   text-transform: uppercase;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 86, ../sass/main.scss */
 .numbers {
   width: 80%;
   margin: 0 auto;
 }
-/* line 88, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .numbers ul {
   position: relative;
   top: -1em;
@@ -90,7 +90,7 @@ body {
   overflow: hidden;
   *zoom: 1;
 }
-/* line 93, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .numbers ul li {
   float: left;
   width: 25%;
@@ -99,17 +99,97 @@ body {
   border-bottom: 1px solid #D9DADA;
   border-left: 1px solid #D9DADA;
 }
-/* line 101, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .numbers ul li:last-child {
   border-right: 1px solid #D9DADA;
 }
-/* line 105, ../sass/main.scss */
+/* line 107, ../sass/main.scss */
 .numbers ul li h2 {
   font-size: 2em;
   padding: 1em 0;
 }
-/* line 110, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .numbers ul li h3 {
   font-size: 1.5em;
   padding: 0 0 2em 0;
+}
+
+/* line 123, ../sass/main.scss */
+.how-it-works h2 {
+  font-size: 2em;
+  margin: 3em auto 1em auto;
+  text-transform: uppercase;
+}
+/* line 128, ../sass/main.scss */
+.how-it-works h2:after {
+  display: block;
+  content: "";
+  background-color: #A1A19F;
+  width: 2em;
+  height: .1em;
+  margin: .4em auto;
+}
+/* line 139, ../sass/main.scss */
+.how-it-works ul li {
+  float: left;
+  width: 33.3%;
+  box-sizing: border-box;
+}
+/* line 144, ../sass/main.scss */
+.how-it-works ul li:before {
+  display: block;
+  content: "";
+  background-color: #A1A19F;
+  width: 87%;
+  height: 1px;
+  position: relative;
+  top: 4em;
+  left: 14.4em;
+  margin: 0 2em;
+}
+/* line 156, ../sass/main.scss */
+.how-it-works ul li:last-child:before {
+  display: none;
+}
+/* line 160, ../sass/main.scss */
+.how-it-works ul li .number {
+  font-size: 2em;
+  color: #A1A19F;
+  border: 1px solid #A1A19F;
+  width: 1em;
+  height: 1em;
+  display: block;
+  margin: 1em auto 2em auto;
+  padding: .4em;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  background-color: #efefef;
+}
+/* line 173, ../sass/main.scss */
+.how-it-works ul li i {
+  font-size: 3.6em;
+}
+/* line 177, ../sass/main.scss */
+.how-it-works ul li .icon-list {
+  color: #ECA95A;
+}
+/* line 181, ../sass/main.scss */
+.how-it-works ul li .icon-pencil {
+  color: #AD9BD1;
+}
+/* line 185, ../sass/main.scss */
+.how-it-works ul li .icon-users {
+  color: #5098C8;
+}
+/* line 189, ../sass/main.scss */
+.how-it-works ul li h3 {
+  margin: 2em auto 1em auto;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+/* line 195, ../sass/main.scss */
+.how-it-works ul li p {
+  color: #A1A09E;
+  font-size: 1em;
 }
