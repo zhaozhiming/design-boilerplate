@@ -65,8 +65,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?-jdbxfw");
-  src: url("../fonts/icomoon.eot?#iefix-jdbxfw") format("embedded-opentype"), url("../fonts/icomoon.ttf?-jdbxfw") format("truetype"), url("../fonts/icomoon.woff?-jdbxfw") format("woff"), url("../fonts/icomoon.svg?-jdbxfw#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?ls8sxb");
+  src: url("../fonts/icomoon.eot?ls8sxb#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?ls8sxb") format("truetype"), url("../fonts/icomoon.woff?ls8sxb") format("woff"), url("../fonts/icomoon.svg?ls8sxb#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -90,137 +90,37 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 29, ../sass/icomoon.scss */
-.icon-pencil2:before {
-  content: "\e609";
+.icon-redo:before {
+  content: "\e603";
 }
 
 /* line 32, ../sass/icomoon.scss */
-.icon-quill:before {
-  content: "\e60a";
-}
-
-/* line 35, ../sass/icomoon.scss */
-.icon-pen:before {
-  content: "\e60b";
-}
-
-/* line 38, ../sass/icomoon.scss */
-.icon-blog:before {
-  content: "\e60c";
-}
-
-/* line 41, ../sass/icomoon.scss */
-.icon-eyedropper:before {
-  content: "\e60d";
-}
-
-/* line 44, ../sass/icomoon.scss */
-.icon-dice:before {
-  content: "\e60e";
-}
-
-/* line 47, ../sass/icomoon.scss */
-.icon-pacman:before {
-  content: "\e60f";
-}
-
-/* line 50, ../sass/icomoon.scss */
-.icon-folder:before {
-  content: "\e610";
-}
-
-/* line 53, ../sass/icomoon.scss */
-.icon-bubble2:before {
-  content: "\e611";
-}
-
-/* line 56, ../sass/icomoon.scss */
-.icon-bubbles3:before {
-  content: "\e612";
-}
-
-/* line 59, ../sass/icomoon.scss */
-.icon-bubbles4:before {
-  content: "\e613";
-}
-
-/* line 62, ../sass/icomoon.scss */
 .icon-user:before {
   content: "\e601";
 }
 
-/* line 65, ../sass/icomoon.scss */
-.icon-users:before {
-  content: "\e614";
+/* line 35, ../sass/icomoon.scss */
+.icon-enlarge2:before {
+  content: "\e606";
 }
 
-/* line 68, ../sass/icomoon.scss */
-.icon-user-plus:before {
-  content: "\e615";
-}
-
-/* line 71, ../sass/icomoon.scss */
-.icon-user-minus:before {
-  content: "\e616";
-}
-
-/* line 74, ../sass/icomoon.scss */
-.icon-user-check:before {
-  content: "\e617";
-}
-
-/* line 77, ../sass/icomoon.scss */
-.icon-user-tie:before {
-  content: "\e618";
-}
-
-/* line 80, ../sass/icomoon.scss */
-.icon-list-numbered:before {
-  content: "\e619";
-}
-
-/* line 83, ../sass/icomoon.scss */
+/* line 38, ../sass/icomoon.scss */
 .icon-list:before {
   content: "\e61a";
 }
 
-/* line 86, ../sass/icomoon.scss */
-.icon-list2:before {
-  content: "\e61b";
-}
-
-/* line 89, ../sass/icomoon.scss */
+/* line 41, ../sass/icomoon.scss */
 .icon-menu:before {
-  content: "\e602";
-}
-
-/* line 92, ../sass/icomoon.scss */
-.icon-paragraph-left:before {
   content: "\e605";
 }
 
-/* line 95, ../sass/icomoon.scss */
-.icon-paragraph-center:before {
-  content: "\e606";
+/* line 44, ../sass/icomoon.scss */
+.icon-loop:before {
+  content: "\e602";
 }
 
-/* line 98, ../sass/icomoon.scss */
-.icon-paragraph-right:before {
-  content: "\e607";
-}
-
-/* line 101, ../sass/icomoon.scss */
-.icon-paragraph-justify:before {
-  content: "\e608";
-}
-
-/* line 104, ../sass/icomoon.scss */
-.icon-truck:before {
-  content: "\e603";
-}
-
-/* line 107, ../sass/icomoon.scss */
-.icon-world:before {
+/* line 47, ../sass/icomoon.scss */
+.icon-star:before {
   content: "\e604";
 }
 
